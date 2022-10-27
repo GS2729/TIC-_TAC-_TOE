@@ -1,0 +1,133 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 15px; */
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    margin: 2px;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.result {
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reset {
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 17px;
+    margin: 35px;
+    transition: all 0.1s ease-in-out0;
+}
+
+#reset:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg,#2BC0E4,#EAECC6);
+
+
+}
+
+/* body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #0F3443, #34E89E,  #0F3443, #34E89E, #0F3443, #34E89E, #0F3443, #34E89E);
+    animation: animate 20s linear infinite;
+    background-size: 500%;
+    z-index: -1;
+
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #0F3443, #34E89E,  #0F3443, #34E89E, #0F3443, #34E89E, #0F3443, #34E89E);
+    animation: animate 30s linear infinite;
+    background-size: 500%;
+    filter: blur(20px);
+    z-index: -1;
+
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+
+    0% {
+        background-position: 500% 0;
+    }
+} */
